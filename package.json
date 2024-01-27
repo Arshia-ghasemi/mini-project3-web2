@@ -1,0 +1,14 @@
+{
+  "name": "mini-project3-web2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arshia Ghasemi",
+  "license": "ISC",
+  "dependencies": {
+    "mdb-ui-kit": "^7.1.0"
+  }
+}

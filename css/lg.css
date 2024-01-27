@@ -1,0 +1,75 @@
+.btn-sign-up {
+    height: 60px;
+}
+
+.title {
+    font-size: 67px;
+    line-height: 110%;
+}
+
+.parag {
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.first-stat{
+    font-size: 28px;
+}
+
+.second-stat{
+    font-size:24px ;
+}
+
+.collection-title{
+    font-size: 38px;
+}
+
+.collection-parag{
+    font-size: 22px;
+}
+
+.creator-main-title{
+    font-size: 38px;
+}
+
+.creator-parag{
+    font-size: 22px;
+}
+
+.category-title{
+    font-size: 38px;
+}
+
+.discover-main-title{
+    font-size: 38px;
+}
+
+.discover-parag{
+    font-size: 22px;
+}
+.setup-main-title{
+    font-size: 38px;
+}
+.setup-main-parag{
+    font-size: 22px;
+}
+
+.setup-title{
+    font-size: 22px;
+}
+
+.setup-parag{
+    font-size: 14px;
+}
+
+
+.join-main-title{
+    font-size: 38px;
+}
+.join-main-parag{
+    font-size: 22px;
+}
+
+.sub{
+    margin-left: -140px;
+}

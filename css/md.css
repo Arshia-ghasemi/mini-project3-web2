@@ -1,0 +1,19 @@
+.navbar-shadow{
+    box-shadow: unset !important;
+    border-radius: unset !important;
+}
+
+.title{
+    font-size:38px ;
+}
+.last-item{
+    font-size: 22px;
+}
+
+.setup-item{
+    height: 340px;
+}
+
+.join-container{
+    background: #3B3B3B;
+}

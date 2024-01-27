@@ -1,0 +1,417 @@
+body {
+    background: #2B2B2B;
+}
+.btn-sign-up {
+    background: #A259FF;
+
+    &:hover {
+        background: #7327d9;
+    }
+}
+
+.navbar-shadow {
+    box-shadow: 0 20px 16px rgba(255, 255, 255, 0.05);
+}
+
+.title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.parag {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-align: justify;
+}
+
+.banner-img-container {
+    aspect-ratio: 3/2;
+}
+
+.banner-box {
+    background: #3B3B3B;
+}
+
+.box-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.link {
+    background: #A259FF;
+    height: 60px;
+
+    &:hover {
+        background: #7327d9;
+    }
+}
+
+.first-stat {
+    font-family: "Space Mono", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.second-stat {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.collection-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+
+.collection-parag {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.last-item {
+    background: #A259FF;
+    text-align: center;
+    font-family: "Space Mono", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+}
+
+.colection-sub {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+
+.colection-span {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.creator-main-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+
+.creator-parag {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.creator {
+    background: #3B3B3B;
+}
+
+.craetor-img {
+    position: relative;
+
+    &::before {
+        content: attr(data-row);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background: #2B2B2B;
+        position: absolute;
+        color: #858584;
+        text-align: center;
+        font-family: "Space Mono", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        left: 0;
+        top: 0;
+    }
+}
+
+.creator-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+
+.creator-sale {
+    color: #858584;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.creator-price {
+    font-family: "Space Mono", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.creator-link {
+    height: 60px;
+    border: 2px solid #A259FF;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+
+    &:hover {
+        background-color: #7327d9;
+    }
+}
+
+.category-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.category-item{
+    background-color: #3B3B3B;
+    &:last-child{
+        .category-item-title{
+            font-size: 14px;
+        }
+    }
+}
+
+.category-item-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+}
+
+.discover-main-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.discover-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.discover-parag{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.discover-item{
+    background-color: #3B3B3B;
+}
+
+.discover-price{
+    color: #858584;
+    font-family: "Space Mono",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.magic{
+    background: url(../images/bc1.png)  50%  no-repeat  ;
+    background-size: 140% 100% ;
+    background-position: center !important;
+    .magic-container{
+        background:linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%) ;
+    }
+}
+
+.prof{
+    background-color: #3B3B3B;
+}
+
+.magic-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+
+.timer{
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+}
+
+.timer-title{
+    font-family: "Space Mono",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+
+.time{
+    font-family: "Space Mono",sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+
+.magic-link{
+    color: #2B2B2B !important;
+    text-align: center;
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border: unset ;
+}
+
+.setup-main-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.setup-main-parag{
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.setup-item{
+    background-color: #3B3B3B;
+}
+
+.setup-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+}
+
+.setup-parag{
+    font-family: "Work Sans",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+
+
+
+.join-main-title{
+    font-family: "Work Sans",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.join-main-parag{
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.sign-up {
+    border: 1px solid #858584;
+    outline: none;
+    &::placeholder {
+        color: #2B2B2B;
+        font-family: "Work Sans", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+    }
+}
+
+.sub{
+    background-color: #A259FF;
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer{
+    background: #3B3B3B;
+}
+
+.footer-item{
+    color: #CCC !important;
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    &.main{
+        font-family: "Space Mono",sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 35.2px */
+        text-transform: capitalize;
+    }
+}
